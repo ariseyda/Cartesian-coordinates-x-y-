@@ -26,13 +26,13 @@ int main(){
 	scanf("%d",&c.x);
 	printf("Value y of the point one:");
 	scanf("%d",&c.y);
-    printf("\nPoint:(%d,%d)",c.x,c.y);
+    printf("Point:(%d,%d)",c.x,c.y);
 	
 	printf("\nValue x of the point two:");
 	scanf("%d",&c2.x);
 	printf("Value y of the point two:");
 	scanf("%d",&c2.y);
-    printf("\nPoint:(%d,%d)",c2.x,c2.y);
+    printf("Point:(%d,%d)",c2.x,c2.y);
     
 	int result=3*c.x+4*c.y;
 	int result2=3*c2.x+4*c2.y;
@@ -48,7 +48,7 @@ int main(){
 	int sbt_x=c.x-c2.x;
 	int sbt_y=c.y-c2.y;
 	
-	printf("Subtract of two cartesian:(%d,%d)",sbt_x,sbt_y);
+	printf("\nSubtract of two cartesian:(%d,%d)",sbt_x,sbt_y);
 	
 	
 
